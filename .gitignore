@@ -1,0 +1,7 @@
+# Ignore these following files
+
+.vscode/
+
+__pycache__/
+
+env/
