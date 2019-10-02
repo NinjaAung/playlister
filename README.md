@@ -2,6 +2,12 @@
 Preparing the student for the constructor project where you have to make you're own creative take of a store front
 
 ## Playlister
+### Home
+![HomePage](img/Home.png)
+### Create
+![CreatePage](Create/Home.png)
+### Show
+![ShowPage](Show/Home.png)
 
 ## Struture
 ```
@@ -12,3 +18,11 @@ Preparing the student for the constructor project where you have to make you're 
 | - Procfile: Heroku
 ```
 
+## Use
+- Read requirment list an install
+- Clone
+```
+~/playlister(master) export FLASK_ENV=development
+~/playlister(master) mongod
+~/playlister(master) flask run
+```
