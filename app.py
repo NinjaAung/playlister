@@ -3,7 +3,7 @@ from pymongo import MongoClient
 
 client = MongoClient()
 db = client.Playlister
-playlists = db.playlists
+playlist = db.playlist
 
 
 app = Flask(__name__)
@@ -17,9 +17,12 @@ playlists = [
 @app.route('/')
 def playlists_index():
     """Show all playlists."""
-    return render_template('playlist_index.html', playlists=playlists)
+    return render_template('playlist_index.html', playlist=playlist.find())
 
-
+@app.route('/playlists/new')
+def playlists_new():
+    """Create a new playlist."""
+    return render_template('playlists_new.html')
 
 
 if __name__ == '__main__':
