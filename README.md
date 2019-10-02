@@ -5,9 +5,9 @@ Preparing the student for the constructor project where you have to make you're 
 ### Home
 ![HomePage](img/Home.png)
 ### Create
-![CreatePage](Create/Home.png)
+![CreatePage](img/Create.png)
 ### Show
-![ShowPage](Show/Home.png)
+![ShowPage](img/Show.png)
 
 ## Struture
 ```
